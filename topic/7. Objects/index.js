@@ -41,7 +41,16 @@ const lookUp = (val) => {
   let result = "";
 
   // Only change code below this line
-
+  // using the val parameter as key
+  // assign the value of the key to the result variable then return
+  const data = {
+    alpha: "Adams",
+    bravo: "Boston",
+    charlie: "Chicago",
+    delta: "Denver",
+    echo: "Easy",
+    foxtrot: "Frank",
+  };
   // Only change code above this line
   return result;
 };
